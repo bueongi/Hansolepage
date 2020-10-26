@@ -5,9 +5,11 @@
 }
 .language{text-align:right;}
 
+
 #lang{
   padding:5px 10px;
   font-size:1.2em;
+  border:1px solid #000;
 }
 form{
   width:460px;
@@ -25,7 +27,7 @@ form{
 form>button{
   cursor:pointer;
   border:none;
-  background-color:#009944;
+  background-color:#0077cc;
   color:white;
 }
 button:active,form>button:hover{background-color:#0077cc;}
@@ -35,72 +37,59 @@ button:active,form>button:hover{background-color:#0077cc;}
 }
 #save_chk,#auto_chk{display:none;}
 #chk_box{
- display:inline-block;
- box-sizing:border-box;
- width:14px;
- height:14px;
- border:1px solid #0077cc;
- border-radius:50%;
+  display:inline-block;
+  box-sizing:border-box;
+  width:14px;
+  height:14px;
+  border:1px solid #0077cc;
+  border-radius:50%;
 }
 #chk_box::before{
- content:"";
- display:inline-block;
- width:3px;
- height:3px;
- border-bottom:1px solid #0077cc;
- border-left:1px solid #0077cc;
- transform:rotate(-45deg)translate(7px,-1px);
+  content:"";
+  display:inline-block;
+  width:3px;
+  height:3px;
+  border-bottom:1px solid #0077cc;
+  border-left:1px solid #0077cc;
+  transform:rotate(-45deg)translate(7px,-1px);
 }
 #save_chk:checked ~ #chk_box{
- border-color:#009944;
- background-color:#009944;
+  border-color:#009944;
+  background-color:#009944;
 }
 #save_chk:checked ~ #chk_box::before{
- border-color:white;
+  border-color:white;
 }
 #auto_chk:checked ~ #chk_box{
- border-color:#009944;
- background-color:#009944;
+  border-color:#009944;
+  background-color:#009944;
 }
 #auto_chk:checked ~ #chk_box::before{
- border-color:white;
+  border-color:white;
 }
 hr{margin:50px 0;}
+
 .sns_login>button{
- cursor:pointer;
- border:1px solid transparent;
- padding:10px;
- color:white;
+  width:100px;
+  padding:10px;
+  border:1px solid transparent;
+  border-radius:12px;
+  background-color:rgba(0,0,255,.8);
+  display:inline-block;
+  cursor:pointer;
+  font-size:.8rem;
+  color:white;
 }
-.sns_login>button:nth-of-type(1){
- background-color:blue;
-}
-.sns_login>button:nth-of-type(1):hover,
-.sns_login>button:nth-of-type(1):focus{
- background-color:transparent;
- border:1px solid blue;
- color:blue;}
 .sns_login>button:nth-of-type(2){
- background-color:rgb(253, 29, 29);
-}
-.sns_login>button:nth-of-type(2):hover,
-.sns_login>button:nth-of-type(2):focus{
- background-color:transparent;
- border:1px solid rgb(253, 29, 29);
- color:rgb(253, 29, 29);
+  background-color:rgba(253, 0, 0, .8);
 }
 .sns_login>button:nth-of-type(3){
- background-color:yellow;
- color:#666;
+  background-color:rgba(255,255,0,.8);
+  color:#333;
 }
-.sns_login>button:nth-of-type(3):hover,
-.sns_login>button:nth-of-type(3):focus{
- background-color:transparent;
- border:1px solid yellow;
- color:#999;}
 .sns_login>h2{
- padding-bottom:50px;
- font-size:2em;
- color:#000;
- text-align:center;
+  padding-bottom:50px;
+  font-size:2em;
+  color:#000;
+  text-align:center;
 }

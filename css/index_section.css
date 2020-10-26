@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 /* section CSS */
-.article{margin-bottom:180px;}
+.article{margin-bottom:138px;}
 /* main banner CSS */
 .main_banner{
   width:100%;
@@ -13,8 +13,8 @@
 .slider>div>.banner_txt{
   width:600px;
   position:absolute;
-  left:60px;
-  top:60px;
+  left:10%;
+  top:30%;
 }
 .bx-wrapper{
  -moz-box-shadow:none;
@@ -22,6 +22,9 @@
  box-shadow:none;
  border:none;
 } 
+.bx-wrapper .bx-controls-direction a{
+  display:none;
+}
 .bx-wrapper .bx-prev{
   background-color:none;
   position:relative;
@@ -99,7 +102,7 @@
 
 /* sub banner CSS */
 .sub_banner_txt{
-  padding-bottom:30px;
+  padding-bottom:45px;
   display:flex;
   flex-flow:row nowrap;
   justify-content:space-between;
@@ -132,7 +135,7 @@
 }
 .sub_banner_content>p{
   color:#999;
-  padding:20px 0;
+  padding:20px 0 40px 0;
 }
 .sub_banner_content>span{
   padding:10px 40px 10px 16px; 
