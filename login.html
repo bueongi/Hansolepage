@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
   <title>한솔제지</title>
- <!-- slider css -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
- <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
- 
- <!-- CSS Reset -->
- <link rel="stylesheet" href="./css/login.css">
- <style>
-   
- </style>
- <script>
+<!-- slider css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<!-- CSS Reset -->
+<link rel="stylesheet" href="./css/login.css">
+<style>
+  
+</style>
+<script>
   $(document).ready(function(){
     $('.slider').bxSlider();
   });
- </script>
+</script>
 </head>
 <body>
   <div class="wrap">
@@ -99,16 +98,16 @@
       </div>
     </header>
 
-   <section class="section">
-     <div class="login_form">
+    <section class="section">
+      <div class="login_form">
         <div class="language">
           <select id="lang">
             <option value="han">한글</option>
             <option value="eng">English</option>
           </select>
         </div>
-     </div>
-     <form method="post">
+      </div>
+      <form method="post">
       <input type="text" id="user_id" placeholder="아이디">
       <input type="text" id="user_pass" placeholder="패스워드">
       <button type="button">로그인</button>
@@ -127,20 +126,23 @@
       <hr>
       <div class="sns_login">
         <h2>SNS 로그인</h2>
-        <button type="button">
-          facebook
-        </button>
-        <button type="button">
-          insta
-        </button>
-        <button type="button">
-          kakao
-        </button>
+        <div class="sns_box">
+          <button type="button">
+            f
+          </button>
+          <button type="button">
+            <p>insta</p>
+          </button>
+          <button type="button">
+            <p>/<!-- kakao --></p> 
+            <span>▼</span>
+          </button>
+        </div>
       </div>
-     </form>
-     
-   </section>
-   
+    </form>
+    
+    </section>
+    
     <footer class="footer">
       <div class="row">
         <div class="content clearfix">

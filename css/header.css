@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 /* header CSS */
-.header{margin-bottom:59px;border:1px solid #bdbdbd;background-color:white;}
+.header{max-width:1920px;margin-bottom:59px;padding:0 60px;border:1px solid #bdbdbd;background-color:white;}
 .header_left{position:relative;float:left;}
 .main_logo{height:90px;position:relative;}
 .main_logo>a{position:absolute;top:50%;transform:translateY(-50%);}
@@ -10,7 +10,7 @@
 .main_logo p:first-child::before{background-color:#07c;left:0;top:5px;}
 .main_logo p:first-child::after{background-color:#094;left:0;bottom:5.5px;}
 .main_logo p:last-child{font-size:12px;color:#555555;text-align:right;}
-.main_nav{position:absolute;left:210px;top:50%;transform:translateY(-50%);width:715px;}
+.main_nav{width:715px;position:absolute;left:210px;top:50%;transform:translateY(-50%);}
 .main_nav>li{position:relative;float:left;padding:0 25px;}
 .main_nav>li>a{font-weight:500;font-size:18px;color:#333333;}
 .main_nav>li:hover>a{color:#07c;}
@@ -20,16 +20,9 @@
 .sub_nav>li>a{font-size:14px;color:#666;}
 .main_nav>li:hover>.sub_nav{top:40px;}
 
-/* .main_nav>li:nth-child(2)>.sub_nav,
-.main_nav>li:nth-child(3)>.sub_nav,
-.main_nav>li:nth-child(4)>.sub_nav,
-.main_nav>li:nth-child(5)>.sub_nav,
-.main_nav>li:nth-child(6)>.sub_nav{
-  display:none;
-} */
 
 
-.header_right.sns{float:right;position:relative;width:300px;height:90px;}
+.header_right.sns{float:right;position:relative;width:20%;height:90px;}
 .sns>ul{position:absolute;top:50%;right:0;transform:translateY(-50%);}
 .sns li{float:left;margin-left:9px;}
 .sns li a{display:inline-block; font-size:14px;color:#666;position:relative;}
